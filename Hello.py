@@ -49,7 +49,18 @@ print(tinylist)
 ## Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed using square braces ([])
 
 tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
-print (tinydict)          # Prints complete dictionary
-print (tinydict.keys())   # Prints all the keys
-print (tinydict.values()) # Prints all the values
+print(tinydict)          # Prints complete dictionary
+print(tinydict.keys())   # Prints all the keys
+print(tinydict.values()) # Prints all the values
+print(tinydict.values())
+
+## Adding Value to Dictionary
+tinydict["market"]="US"
+print(tinydict)
+
+del tinydict["name"]
+print(tinydict)
+
+result = "department" in tinydict
+print(result)
 
